@@ -1,7 +1,7 @@
 import connectToWhatsapp from './Digix/crew.js'
-import handleIncomingMessage from './events/messageHandler.js'
+import handleIncomingMessage from './messageHandler.js'
 
-(async() => {
+(async () => {
     await connectToWhatsapp(handleIncomingMessage)
-        console.log('established !')
+    console.log('WhatsApp Bot Connected ✅')
 })()
